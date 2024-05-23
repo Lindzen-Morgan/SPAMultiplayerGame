@@ -1,11 +1,9 @@
-﻿public class User
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace MultiplayerGame.Models
 {
-    public int Id { get; set; }
-    public string Username { get; set; }
-    public string PasswordHash { get; set; }
-    public int GamesPlayed { get; set; }
-    public int GamesWon { get; set; }
-    // Other user-specific fields
+    public class User : IdentityUser
+    {
+        // Additional properties if needed
+    }
 }
-
-

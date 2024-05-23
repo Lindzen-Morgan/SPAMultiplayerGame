@@ -1,43 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿// Controllers/GameController.cs
+using Microsoft.AspNetCore.Mvc;
+using MultiplayerGame.Data;
 
-[ApiController]
-[Route("api/[controller]")]
-public class GameController : ControllerBase
+namespace MultiplayerGame.Controllers
 {
-    private readonly GameContext _context;
-
-    public GameController(GameContext context)
+    [ApiController]
+    [Route("api/[controller]")]
+    public class GameController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly GameContext _context;
 
-    [HttpPost("start")]
-    public async Task<IActionResult> StartGame([FromBody] StartGameRequest request)
-    {
-        var game = new Game
+        public GameController(GameContext context)
         {
-            UserId = request.UserId,
-            GameState = "initial",
-            LastUpdated = DateTime.UtcNow
-        };
-        _context.Games.Add(game);
-        await _context.SaveChangesAsync();
+            _context = context;
+        }
 
-        return Ok(game);
-    }
-
-    [HttpPost("move")]
-    public async Task<IActionResult> MakeMove([FromBody] MoveRequest request)
-    {
-        var game = await _context.Games.FindAsync(request.GameId);
-        if (game == null)
-            return NotFound();
-
-        // Update game state
-        game.GameState = request.NewState;
-        game.LastUpdated = DateTime.UtcNow;
-        await _context.SaveChangesAsync();
-
-        return Ok(game);
+        // Define your endpoints here
+        // Example: [HttpGet]
+        // public IActionResult GetGames() { ... }
     }
 }

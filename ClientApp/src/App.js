@@ -6,6 +6,7 @@ import Register from './components/Register';
 import Game from './components/Game';
 import Profile from './components/Profile';
 import Highscore from './components/Highscore';
+import Navigation from './components/Navigation';
 
 function App() {
     return (

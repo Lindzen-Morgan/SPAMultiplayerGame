@@ -7,6 +7,7 @@ namespace MultiplayerGame.Data
     public class GameContext : IdentityDbContext<User>
     {
         public DbSet<Game> Games { get; set; }
+        public DbSet<Highscore> Highscores { get; set; }
 
         public GameContext(DbContextOptions<GameContext> options) : base(options) { }
 

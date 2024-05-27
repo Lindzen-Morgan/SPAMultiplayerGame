@@ -4,6 +4,8 @@
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        // Additional properties if needed
+        public string UserId { get; set; }  // Add this property
+        public string GameState { get; set; }  // Add this property
+        public DateTime LastUpdated { get; set; }  // Add this property
     }
 }

@@ -1,5 +1,11 @@
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\appsettings.json
+C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\ClientApp\package-lock.json
+C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\ClientApp\package.json
+C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\ClientApp\public\manifest.json
+C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\package-lock.json
+C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\package.json
+C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\MultiplayerGame.staticwebassets.runtime.json
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\MultiplayerGame.exe
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\MultiplayerGame.deps.json
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\MultiplayerGame.runtimeconfig.json
@@ -8,7 +14,7 @@ C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\Humanizer.dll
-C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll

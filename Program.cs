@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MultiplayerGame.Data;
 using MultiplayerGame.Models;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Listen(IPAddress.Loopback, 5001);
+});
 
 // Add DbContext
 builder.Services.AddDbContext<GameContext>(options =>
@@ -65,11 +70,26 @@ app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
 
+// Serve the static files from wwwroot
+app.UseStaticFiles();
+
+// Fallback to index.html for all routes that are not handled by API or other middlewares
+app.Use(async (context, next) =>
+{
+    await next();
+
+    if (context.Response.StatusCode == 404 && !Path.HasExtension(context.Request.Path.Value))
+    {
+        context.Request.Path = "/index.html";
+        await next();
+    }
+});
+
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
     endpoints.MapRazorPages();
-    endpoints.MapFallbackToFile("index.html"); // This serves index.html for all unhandled routes
+    endpoints.MapFallbackToFile("/index.html"); // This serves index.html for all unhandled routes
 });
 
 app.Run();

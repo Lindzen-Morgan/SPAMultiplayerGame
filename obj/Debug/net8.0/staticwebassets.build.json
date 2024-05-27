@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "V63nT/b/wUegtPQ01rmvZPU58t3HOBifhsrtKXtmM60=",
+  "Hash": "zwAr8SdpWrpEDj4Zs5VS/gwXFM/HID3UHpiU+t3OaFA=",
   "Source": "MultiplayerGame",
   "BasePath": "_content/MultiplayerGame",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MultiplayerGame\\wwwroot",
+      "Source": "MultiplayerGame",
+      "ContentRoot": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\",
+      "BasePath": "_content/MultiplayerGame",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

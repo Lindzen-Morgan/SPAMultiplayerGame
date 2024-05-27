@@ -2,7 +2,6 @@ C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\appsettings.json
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\ClientApp\package-lock.json
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\ClientApp\package.json
-C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\ClientApp\public\manifest.json
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\package-lock.json
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\package.json
 C:\Users\morga\OneDrive\Skrivbord\MultiplayerGame\MultiplayerGame\bin\Debug\net8.0\MultiplayerGame.staticwebassets.runtime.json

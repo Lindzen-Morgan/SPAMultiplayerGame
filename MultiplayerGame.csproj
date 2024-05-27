@@ -8,11 +8,6 @@
 
   <ItemGroup>
     <Content Include="ClientApp\.gitignore" />
-    <Content Include="ClientApp\public\favicon.ico" />
-    <Content Include="ClientApp\public\index.html" />
-    <Content Include="ClientApp\public\logo192.png" />
-    <Content Include="ClientApp\public\logo512.png" />
-    <Content Include="ClientApp\public\robots.txt" />
     <Content Include="ClientApp\README.md" />
     <Content Include="ClientApp\src\App.css" />
     <Content Include="ClientApp\src\App.js" />
@@ -41,7 +36,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <None Include="wwwroot\favicon.ico" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\logo192.png" />
+    <None Include="wwwroot\logo512.png" />
+    <None Include="wwwroot\robots.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\public\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\logo192.png",
+      "PackagePath": "staticwebassets\\logo192.png"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\logo512.png",
+      "PackagePath": "staticwebassets\\logo512.png"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MultiplayerGame.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MultiplayerGame.props",
+      "PackagePath": "build\\MultiplayerGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MultiplayerGame.props",
+      "PackagePath": "buildMultiTargeting\\MultiplayerGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MultiplayerGame.props",
+      "PackagePath": "buildTransitive\\MultiplayerGame.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

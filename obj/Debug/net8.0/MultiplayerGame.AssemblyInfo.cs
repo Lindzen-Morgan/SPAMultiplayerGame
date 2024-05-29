@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiplayerGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c90309f01eea74a09f6e889350b1379912423f09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddcde66cf0853bcb238edbb8c77c795f84f166eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiplayerGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiplayerGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

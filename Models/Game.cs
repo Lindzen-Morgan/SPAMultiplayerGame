@@ -3,9 +3,12 @@
     public class Game
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string UserId { get; set; }  // Add this property
-        public string GameState { get; set; }  // Add this property
-        public DateTime LastUpdated { get; set; }  // Add this property
+        public required string UserId { get; set; }
+        public required string GameState { get; set; }
+        public DateTime LastUpdated { get; set; }
+        public required string Board { get; set; }
+        public required string CurrentPlayer { get; set; }
+        public bool IsFinished { get; set; }
+        public required string Winner { get; set; }
     }
 }

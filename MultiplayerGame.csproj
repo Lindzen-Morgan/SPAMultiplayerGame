@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Content Include="ClientApp\.gitignore" />
+    <Content Include="ClientApp\public\index.html" />
     <Content Include="ClientApp\README.md" />
     <Content Include="ClientApp\src\App.css" />
     <Content Include="ClientApp\src\App.js" />
@@ -17,7 +18,7 @@
     <Content Include="ClientApp\src\Components\Login.js" />
     <Content Include="ClientApp\src\Components\Navigation.js" />
     <Content Include="ClientApp\src\Components\Profile.js" />
-    <Content Include="ClientApp\src\Components\Registration.js" />
+    <Content Include="ClientApp\src\Components\Register.js" />
     <Content Include="ClientApp\src\index.css" />
     <Content Include="ClientApp\src\index.js" />
     <Content Include="ClientApp\src\logo.svg" />
@@ -37,14 +38,9 @@
 
   <ItemGroup>
     <None Include="wwwroot\favicon.ico" />
-    <None Include="wwwroot\index.html" />
     <None Include="wwwroot\logo192.png" />
     <None Include="wwwroot\logo512.png" />
     <None Include="wwwroot\robots.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ClientApp\public\" />
   </ItemGroup>
 
 </Project>

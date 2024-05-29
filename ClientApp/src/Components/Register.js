@@ -7,7 +7,7 @@ const Registration = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle registration logic
+        
     };
 
     return (

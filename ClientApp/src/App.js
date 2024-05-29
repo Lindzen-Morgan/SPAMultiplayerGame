@@ -7,6 +7,8 @@ import Game from './components/Game';
 import Profile from './components/Profile';
 import Highscore from './components/Highscore';
 import Navigation from './components/Navigation';
+import TicTacToe from './components/TicTacToe';
+
 
 function App() {
     return (
@@ -17,6 +19,8 @@ function App() {
                 <Route path="/game" element={<Game />} />
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/highscore" element={<Highscore />} />
+                <Route path="/tic-tac-toe" element={<TicTacToe />} />
+
             </Routes>
         </Router>
     );

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\asset-manifest.json"
+    },
+    {
       "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -23,6 +27,34 @@
     {
       "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\robots.txt",
       "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\static\\css\\main.e6c13ad2.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.e6c13ad2.css"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\static\\css\\main.e6c13ad2.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.e6c13ad2.css.map"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\static\\js\\453.fec91e4a.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\453.fec91e4a.chunk.js"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\static\\js\\453.fec91e4a.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\453.fec91e4a.chunk.js.map"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\static\\js\\main.e7fd349f.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.e7fd349f.js"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\static\\js\\main.e7fd349f.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.e7fd349f.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\morga\\OneDrive\\Skrivbord\\MultiplayerGame\\MultiplayerGame\\wwwroot\\static\\js\\main.e7fd349f.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.e7fd349f.js.map"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MultiplayerGame.Microsoft.AspNetCore.StaticWebAssets.props",
